@@ -1,0 +1,10 @@
+shadowsocks = hk054h6gyhcloud.tech:26931, method=rc4-md5, password=pzb5mhp4klh, fast-open=true, udp-relay=true, tag=🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 01 1Gbps HBO TVB
+shadowsocks = hkytrvheud.tech:26931, method=rc4-md5, password=pzb5mhp4klh, fast-open=true, udp-relay=true, tag=🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 02 1Gbps HBO TVB
+shadowsocks = hkhtrhud.tech:26931, method=rc4-md5, password=pzb5mhp4klh, fast-open=true, udp-relay=true, tag=🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 03 1Gbps HBO TVB
+shadowsocks = hk0htydhthch.com:26931, method=rc4-md5, password=pzb5mhp4klh, fast-open=true, udp-relay=true, tag=🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 04 1Gbps HBO TVB
+shadowsocks = hk0htynhtech.com:26931, method=rc4-md5, password=pzb5mhp4klh, fast-open=true, udp-relay=true, tag=🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 05 1Gbps HBO TVB
+shadowsocks = hk546boud.tech:26931, method=rc4-md5, password=pzb5mhp4klh, fast-open=true, udp-relay=true, tag=🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 06 1Gbps HBO TVB
+shadowsocks = hk0y5yshcloud.tech:26931, method=rc4-md5, password=pzb5mhp4klh, fast-open=true, udp-relay=true, tag=🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 07 1Gbps HBO TVB
+shadowsocks = hk065yhcloud.tech:26931, method=rc4-md5, password=pzb5mhp4klh, fast-open=true, udp-relay=true, tag=🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 08 1Gbps HBO TVB
+shadowsocks = hk0y5shcloud.tech:26931, method=rc4-md5, password=pzb5mhp4klh, fast-open=true, udp-relay=true, tag=🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 09 1Gbps HBO TVB
+shadowsocks = hk1y5rygcloud.tech:26931, method=rc4-md5, password=pzb5mhp4klh, fast-open=true, udp-relay=true, tag=🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 10 1Gbps HBO TVB
