@@ -1,0 +1,35 @@
+# === Apple端通用直连规则集 ===
+# 项目主页：https://github.com/loongfzs/Clash-Config
+
+# 规则编写示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# DOMAIN,mrmignjerhqzhupy.com
+
+# 本地地址
+IP-CIDR6,fc00::/7,no-resolve
+IP-CIDR6,fe80::/10,no-resolve
+IP-CIDR6,fd00::/8,no-resolve
+DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,in-addr.arpa
+
+# 服务
+# NTP 时间同步
+DOMAIN,time.apple.com
+DOMAIN,time-ios.apple.com
+DOMAIN,time.asia.apple.com
+DOMAIN-SUFFIX,pool.ntp.org
+
+# 华为智慧生活
+DOMAIN-SUFFIX,dbankcdn.com
+DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,huawei.com
+DOMAIN-SUFFIX,huaweicloud.com
+DOMAIN-SUFFIX,hwccpc.com
+DOMAIN-SUFFIX,vmall.com
+DOMAIN-SUFFIX,vmallres.com

@@ -1,0 +1,8 @@
+# V1 显示名称-详细地址-国旗
+#geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/GeoLocationChecker/QuantumultX/IP-API.js
+# V2 中文显示地区
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
+# V3 显示名称及无国旗
+#geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-location-with-script.js
+# V4 显示英文名称及国旗
+#geo_location_checker=http://ifconfig.co/json, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IPConfig.js

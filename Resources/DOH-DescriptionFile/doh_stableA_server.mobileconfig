@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerName</key>
+					<string>a.vvvglass.com</string>
+					<key>ServerURL</key>
+					<string>https://a.vvvglass.com/iq</string>
+				</dict>
+				<key>Name</key>
+				<string>a.vvvglass.com DoH</string>
+				<key>PayloadDescription</key>
+				<string>Configures device to use AdGuard Home</string>
+				<key>PayloadDisplayName</key>
+				<string>a.vvvglass.com DoH</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.73aaaab3-5492-4e6f-b0f8-5305b5bc874a</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>694c5006-8fd0-4b91-bb3f-bcc536baa162</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>iQDNS StableA server DOH Settings</string>
+		<key>PayloadDisplayName</key>
+		<string>a.vvvglass.com DoH</string>
+		<key>PayloadIdentifier</key>
+		<string>7326b27a-992c-47d4-814c-d66b6b24c58c</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false/>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>1275e446-16c8-4986-86e0-67ba443a8947</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

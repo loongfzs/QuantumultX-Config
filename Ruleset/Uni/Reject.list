@@ -1,0 +1,87 @@
+# === Apple端通用拒绝规则集 ===
+# 项目主页：https://github.com/loongfzs/Clash-Config
+
+# 规则编写示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# DOMAIN,ckojobpuynwclsgd.com
+
+# 隐私保护及去广告
+# 阿里
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,log.aliyuncs.com
+# 广告
+DOMAIN,h-adashx.ut.taobao.com
+
+# 哔哩哔哩
+# PCDN
+DOMAIN-SUFFIX,biliapi.net
+# 客户端信息追踪 (https://bbs.saraba1st.com/2b/thread-2134598-1-1.html)
+DOMAIN,dataflow.biliapi.com
+
+# 百度
+DOMAIN,als.baidu.com
+DOMAIN,afd.baidu.com
+DOMAIN,cpro.baidu.com
+DOMAIN,ext.baidu.com
+DOMAIN,fclick.baidu.com
+DOMAIN,fclog.baidu.com
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+DOMAIN,miao.baidu.com
+DOMAIN,nsclick.baidu.com
+DOMAIN,tcbox.baidu.com
+DOMAIN,pimlog.baidu.com
+DOMAIN,ug.baidu.com
+
+# 腾讯
+DOMAIN-SUFFIX,beacon.qq.com
+DOMAIN-SUFFIX,btrace.qq.com
+DOMAIN-SUFFIX,bugly.qq.com
+DOMAIN-SUFFIX,trace.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,rqd.qq.com
+DOMAIN-SUFFIX,e.qq.com
+
+# 站点统计
+DOMAIN-SUFFIX,ad-survey.com
+DOMAIN-SUFFIX,cnzz.net
+DOMAIN-SUFFIX,cnzz.com
+DOMAIN-SUFFIX,miaozhen.com
+DOMAIN-SUFFIX,sensorsdata.cn
+DOMAIN-SUFFIX,umsns.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+
+# Google
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,ads.google.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,analytics.google.com
+DOMAIN-SUFFIX,doubleclick.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googlecommerce.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,mobileads.google.com
+# Firebase Crashlytics
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN,firebaselogging-pa.googleapis.com
+
+# 国外统计网站
+DOMAIN-SUFFIX,abtasty.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,mixpanel.com
+
+# Weixin
+DOMAIN,dns.weixin.qq.com
+DOMAIN,dns.weixin.qq.com.cn

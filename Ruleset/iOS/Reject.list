@@ -1,0 +1,30 @@
+# === iOS拒绝规则集 ===
+# 项目主页：https://github.com/loongfzs/Clash-Config
+
+# 规则编写示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# DOMAIN,dpoxxhdftjnw.com
+
+# 阻止一键登录
+# 移动
+# https://dev.10086.cn/dev10086/pub/loadAttach?attachId=6EF75FD09D4F40D1973CB7C36C3DB2E2
+DOMAIN-SUFFIX,cmpassport.com
+# 电信
+DOMAIN-SUFFIX,id6.me
+# 阿里云 https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/download%2Fpdf%2F189628%2FAPI%25E5%258F%2582%25E8%2580%2583_cn_zh-CN.pdf
+DOMAIN,dypnsapi.aliyuncs.com
+# 袤博 https://www.mob.com/wiki/detailed?wiki=157&id=78
+DOMAIN,identify.verify.mob.com
+DOMAIN,identify-verify.dutils.com
+# 极验
+DOMAIN,onepass.geetest.com
+# 云片移动认证
+DOMAIN,mobileauth.yunpian.com
+# 赛邮云通信
+DOMAIN,tpa.mysubmail.com
