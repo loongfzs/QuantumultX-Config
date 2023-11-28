@@ -8,6 +8,6 @@ The configuration file of Quantumult X, purely for personal use.
 
 ### 访问量
 
-![](http://profile-counter.glitch.me/evilbutcher/count.svg)
+![](http://profile-counter.glitch.me/loongfzs/count.svg)
 
 【2023年11月28日 UTC+8 更新】
