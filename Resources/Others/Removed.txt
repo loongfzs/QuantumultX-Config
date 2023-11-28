@@ -1,2 +1,6 @@
 # Boxjs脚本
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=Boxjs脚本, update-interval=86400, opt-parser=false, enabled=true
+
+# Firebase Crashlytics
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN,firebaselogging-pa.googleapis.com
