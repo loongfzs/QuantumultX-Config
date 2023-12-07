@@ -9,4 +9,5 @@
 # IP-CIDR,223.5.5.5/32,no-resolve（单IP）
 # IP-CIDR6,2620:149:a44::/48
 
-DOMAIN,71o20bvgnpz8.com
+# Apple MacOS时间同步
+DOMAIN,time-macos.apple.com

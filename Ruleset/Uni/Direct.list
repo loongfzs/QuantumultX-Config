@@ -18,12 +18,10 @@ IP-CIDR6,fd00::/8,no-resolve
 DOMAIN-SUFFIX,lan
 DOMAIN-SUFFIX,in-addr.arpa
 
-# 服务
-# NTP 时间同步
+# Apple 时间同步
 DOMAIN,time.apple.com
-DOMAIN,time-ios.apple.com
 DOMAIN,time.asia.apple.com
-DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN,time.euro.apple.com
 
 # 华为智慧生活
 DOMAIN-SUFFIX,dbankcdn.com
