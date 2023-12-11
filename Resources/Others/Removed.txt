@@ -4,3 +4,6 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 # Firebase Crashlytics
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN,firebaselogging-pa.googleapis.com
+
+# 阿里云盘净化+解锁本地会员功能[倍速、码率] 作者：ddgksf2013
+https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, tag=阿里云盘净化+解锁本地会员功能[倍速、码率] 作者：ddgksf2013, update-interval=28800, opt-parser=true, enabled=true
