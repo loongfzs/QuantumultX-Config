@@ -9,5 +9,4 @@
 # IP-CIDR,223.5.5.5/32,no-resolve（单IP）
 # IP-CIDR6,2620:149:a44::/48
 
-# Apple iOS时间同步
-DOMAIN,time-ios.apple.com
+DOMAIN,cdjp3y27nrnh.com

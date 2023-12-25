@@ -17,17 +17,3 @@ IP-CIDR6,fe80::/10,no-resolve
 IP-CIDR6,fd00::/8,no-resolve
 DOMAIN-SUFFIX,lan
 DOMAIN-SUFFIX,in-addr.arpa
-
-# Apple 时间同步
-DOMAIN,time.apple.com
-DOMAIN,time.asia.apple.com
-DOMAIN,time.euro.apple.com
-
-# 华为智慧生活
-DOMAIN-SUFFIX,dbankcdn.com
-DOMAIN-SUFFIX,hicloud.com
-DOMAIN-SUFFIX,huawei.com
-DOMAIN-SUFFIX,huaweicloud.com
-DOMAIN-SUFFIX,hwccpc.com
-DOMAIN-SUFFIX,vmall.com
-DOMAIN-SUFFIX,vmallres.com
