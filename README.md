@@ -10,4 +10,4 @@ The configuration file of Quantumult X, purely for personal use.
 
 ![](http://profile-counter.glitch.me/loongfzs/count.svg)
 
-【2024年1月30日 UTC+8 更新】
+【2024年2月27日 UTC+8 更新】
