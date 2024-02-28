@@ -7,3 +7,24 @@ DOMAIN,firebaselogging-pa.googleapis.com
 
 # 阿里云盘净化+解锁本地会员功能[倍速、码率] 作者：ddgksf2013
 https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, tag=阿里云盘净化+解锁本地会员功能[倍速、码率] 作者：ddgksf2013, update-interval=28800, opt-parser=true, enabled=true
+
+# iOS端拒绝规则集
+https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iOS/Reject.list, tag=iOS端拒绝规则集, force-policy=REJECT, update-interval=28800, opt-parser=true, enabled=true
+# iOS端直连规则集
+https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iOS/Direct.list, tag=iOS端直连规则集, force-policy=DIRECT, update-interval=28800, opt-parser=true, enabled=true
+# iOS端代理规则集
+https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iOS/Proxy.list, tag=iOS端代理规则集, force-policy=PROXY, update-interval=28800, opt-parser=true, enabled=true
+
+# MacOS端拒绝规则集
+https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/MacOS/Reject.list, tag=MacOS端拒绝规则集, force-policy=REJECT, update-interval=28800, opt-parser=true, enabled=true
+# MacOS端直连规则集
+https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/MacOS/Direct.list, tag=MacOS端直连规则集, force-policy=DIRECT, update-interval=28800, opt-parser=true, enabled=true
+# MacOS端代理规则集
+https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/MacOS/Proxy.list, tag=MacOS端代理规则集, force-policy=PROXY, update-interval=28800, opt-parser=true, enabled=true
+
+# iPadOS端拒绝规则集
+https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iPadOS/Reject.list, tag=iPadOS端拒绝规则集, force-policy=REJECT, update-interval=28800, opt-parser=true, enabled=true
+# iPadOS端直连规则集
+https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iPadOS/Direct.list, tag=iPadOS端直连规则集, force-policy=DIRECT, update-interval=28800, opt-parser=true, enabled=true
+# iPadOS端代理规则集
+https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iPadOS/Proxy.list, tag=iPadOS端代理规则集, force-policy=PROXY, update-interval=28800, opt-parser=true, enabled=true

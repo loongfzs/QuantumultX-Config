@@ -1,4 +1,4 @@
-# === MacOS端拒绝规则集 ===
+# === Apple端通用直连规则集 ===
 # 项目主页：https://github.com/loongfzs/Clash-Config
 
 # 规则编写示例
@@ -9,4 +9,13 @@
 # IP-CIDR,223.5.5.5/32,no-resolve（单IP）
 # IP-CIDR6,2620:149:a44::/48
 
-DOMAIN,82p94k41sf14.com
+# DOMAIN,mrmignjerhqzhupy.com
+
+# 本地地址
+IP-CIDR6,fc00::/7,no-resolve
+IP-CIDR6,fe80::/10,no-resolve
+IP-CIDR6,fd00::/8,no-resolve
+DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,in-addr.arpa
+# 内网域名
+DOMAIN-SUFFIX,internal
