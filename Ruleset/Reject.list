@@ -11,6 +11,9 @@
 
 # DOMAIN,ckojobpuynwclsgd.com
 
+# Test(https://ip.skk.moe/split-tunnel)
+DOMAIN,4.ip.skk.moe
+
 # 隐私保护及去广告
 # 阿里
 DOMAIN-SUFFIX,mmstat.com
