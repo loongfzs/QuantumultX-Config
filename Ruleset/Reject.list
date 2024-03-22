@@ -16,7 +16,6 @@ DOMAIN,4.ip.skk.moe
 
 # 隐私保护及去广告
 # 阿里
-DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,log.aliyuncs.com
 # 广告
 DOMAIN,h-adashx.ut.taobao.com
