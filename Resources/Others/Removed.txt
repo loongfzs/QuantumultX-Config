@@ -28,3 +28,14 @@ https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iPadO
 https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iPadOS/Direct.list, tag=iPadOS端直连规则集, force-policy=DIRECT, update-interval=28800, opt-parser=true, enabled=true
 # iPadOS端代理规则集
 https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iPadOS/Proxy.list, tag=iPadOS端代理规则集, force-policy=PROXY, update-interval=28800, opt-parser=true, enabled=true
+
+^((?!Panel|Traffic|Expire).)*$
+
+# revenuecat
+https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/Aphrodite.conf, tag=Aphrodite-你的性生活日历+解锁Aphrodite会员(2022.01.30), update-interval=86400, opt-parser=false, enabled=true
+
+# 清理DNS缓存【每4小时（执行时间：每日00:00:00 04:00:00 08:00:00 12:00:00 16:00:00 20:00:00）清空一次】
+0 */4 * * ? https://raw.githubusercontent.com/chxm1023/Task/main/dns-clear-cache.js, tag=清理DNS缓存, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/clean.png, enabled=true
+
+# 默认当 DNS 层面某domain 被reject时，将返回loopback IP。你可以通过下面的参数，修改成为 “no-error-no-answer”，或者 “nxdomain”
+dns_reject_domain_behavior = nxdomain
