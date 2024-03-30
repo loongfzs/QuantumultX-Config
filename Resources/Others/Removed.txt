@@ -41,7 +41,6 @@ https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/Aphrodite.conf, tag=
 dns_reject_domain_behavior = nxdomain
 
 #################################################################################################
-## DNS服务器配置
 # 使用 DNS over HTTP/3
 prefer-doh3
 # （加密）DNS 服务器地址
@@ -49,7 +48,6 @@ doh-server=https://dns.alidns.com/dns-query,https://doh.360.cn/dns-query,exclude
 # 路由器
 server=/tplogin.cn/system
 
-## DNS服务器配置
 # （加密）DNS 服务器地址
 doh-server=https://doh-pure.onedns.net/dns-query,https://doh.pub/dns-query,excluded_ssids=SHUO
 # 路由器
