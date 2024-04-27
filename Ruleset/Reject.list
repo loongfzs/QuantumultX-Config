@@ -84,3 +84,6 @@ DOMAIN-SUFFIX,mixpanel.com
 # Weixin
 DOMAIN,dns.weixin.qq.com
 DOMAIN,dns.weixin.qq.com.cn
+
+# TXT下载网
+DOMAIN-SUFFIX,upasqyw.com
