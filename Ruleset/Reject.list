@@ -57,8 +57,6 @@ DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,sensorsdata.cn
 DOMAIN-SUFFIX,umsns.com
-DOMAIN-SUFFIX,umeng.com
-DOMAIN-SUFFIX,umengcloud.com
 
 # Google
 DOMAIN-SUFFIX,app-measurement.com
@@ -85,5 +83,5 @@ DOMAIN-SUFFIX,mixpanel.com
 DOMAIN,dns.weixin.qq.com
 DOMAIN,dns.weixin.qq.com.cn
 
-# TXT下载网
+# TXT下载网广告
 DOMAIN-SUFFIX,upasqyw.com
