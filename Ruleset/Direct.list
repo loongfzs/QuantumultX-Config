@@ -15,19 +15,3 @@
 IP-CIDR6,fc00::/7,no-resolve
 IP-CIDR6,fe80::/10,no-resolve
 IP-CIDR6,fd00::/8,no-resolve
-DOMAIN-SUFFIX,lan
-DOMAIN-SUFFIX,in-addr.arpa
-# 内网域名
-DOMAIN-SUFFIX,internal
-
-# iCloud 邮件
-DOMAIN-SUFFIX,mail.me.com
-
-# Apple 时间同步
-DOMAIN,time.apple.com
-DOMAIN,time-ios.apple.com
-DOMAIN,time-macos.apple.com
-DOMAIN,time.asia.apple.com
-DOMAIN,time.euro.apple.com
-# NTP 时间同步
-DOMAIN-SUFFIX,pool.ntp.org

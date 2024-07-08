@@ -52,3 +52,12 @@ server=/tplogin.cn/system
 doh-server=https://doh-pure.onedns.net/dns-query,https://doh.pub/dns-query,excluded_ssids=SHUO
 # 路由器
 server=/tplogin.cn/system
+
+## DNS服务器配置，留空则使用默认DNS
+# 使用 DNS over HTTP/3
+prefer-doh3
+# （加密）DNS 服务器地址
+doh-server=https://dns.alidns.com/dns-query,https://doh.360.cn/dns-query
+
+# 连接验证
+HOST,captive.apple.com,DIRECT
