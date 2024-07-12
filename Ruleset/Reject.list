@@ -26,6 +26,9 @@ DOMAIN-SUFFIX,biliapi.net
 # 客户端信息追踪 (https://bbs.saraba1st.com/2b/thread-2134598-1-1.html)
 DOMAIN,dataflow.biliapi.com
 
+# 滴滴出行
+DOMAIN,gwp.xiaojukeji.com
+
 # 百度
 DOMAIN,als.baidu.com
 DOMAIN,afd.baidu.com
@@ -39,6 +42,8 @@ DOMAIN,nsclick.baidu.com
 DOMAIN,tcbox.baidu.com
 DOMAIN,pimlog.baidu.com
 DOMAIN,ug.baidu.com
+# 贴吧屏蔽域名dns查询
+IP-CIDR,180.76.76.200/32,REJECT
 
 # 腾讯
 DOMAIN-SUFFIX,beacon.qq.com
