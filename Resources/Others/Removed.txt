@@ -5,9 +5,6 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN,firebaselogging-pa.googleapis.com
 
-# 阿里云盘净化+解锁本地会员功能[倍速、码率] 作者：ddgksf2013
-https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js, tag=阿里云盘净化+解锁本地会员功能[倍速、码率] 作者：ddgksf2013, update-interval=28800, opt-parser=true, enabled=true
-
 # iOS端拒绝规则集
 https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iOS/Reject.list, tag=iOS端拒绝规则集, force-policy=REJECT, update-interval=28800, opt-parser=true, enabled=true
 # iOS端直连规则集
@@ -41,23 +38,5 @@ https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/Aphrodite.conf, tag=
 dns_reject_domain_behavior = nxdomain
 
 #################################################################################################
-# 使用 DNS over HTTP/3
-prefer-doh3
-# （加密）DNS 服务器地址
-doh-server=https://dns.alidns.com/dns-query,https://doh.360.cn/dns-query,excluded_ssids=SHUO
 # 路由器
 server=/tplogin.cn/system
-
-# （加密）DNS 服务器地址
-doh-server=https://doh-pure.onedns.net/dns-query,https://doh.pub/dns-query,excluded_ssids=SHUO
-# 路由器
-server=/tplogin.cn/system
-
-## DNS服务器配置，留空则使用默认DNS
-# 使用 DNS over HTTP/3
-prefer-doh3
-# （加密）DNS 服务器地址
-doh-server=https://dns.alidns.com/dns-query,https://doh.360.cn/dns-query
-
-# 连接验证
-HOST,captive.apple.com,DIRECT

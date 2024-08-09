@@ -17,12 +17,12 @@ DOMAIN,4.ip.skk.moe
 # 隐私保护及去广告
 # 阿里
 DOMAIN-SUFFIX,log.aliyuncs.com
-# 广告
-DOMAIN,h-adashx.ut.taobao.com
+# 统计
+# DOMAIN,h-adashx.ut.taobao.com
 
 # 哔哩哔哩
 # PCDN
-DOMAIN-SUFFIX,biliapi.net
+# DOMAIN-SUFFIX,biliapi.net
 # 客户端信息追踪 (https://bbs.saraba1st.com/2b/thread-2134598-1-1.html)
 DOMAIN,dataflow.biliapi.com
 
@@ -89,4 +89,4 @@ DOMAIN,dns.weixin.qq.com
 DOMAIN,dns.weixin.qq.com.cn
 
 # TXT下载网广告
-DOMAIN-SUFFIX,upasqyw.com
+# DOMAIN-SUFFIX,upasqyw.com
