@@ -36,7 +36,3 @@ https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/Aphrodite.conf, tag=
 
 # 默认当 DNS 层面某domain 被reject时，将返回loopback IP。你可以通过下面的参数，修改成为 “no-error-no-answer”，或者 “nxdomain”
 dns_reject_domain_behavior = nxdomain
-
-#################################################################################################
-# 路由器
-server=/tplogin.cn/system
