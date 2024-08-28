@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,log.aliyuncs.com
 
 # 哔哩哔哩
 # PCDN
-# DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,biliapi.net
 # 客户端信息追踪 (https://bbs.saraba1st.com/2b/thread-2134598-1-1.html)
 DOMAIN,dataflow.biliapi.com
 
