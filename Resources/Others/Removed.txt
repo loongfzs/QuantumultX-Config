@@ -54,3 +54,9 @@ https://raw.githubusercontent.com/BiliUniverse/Redirect/main/modules/BiliBili.Re
 
 # 咪咕音乐 去开屏广告
 https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Rewrite/App/MiguMusic.conf, tag=咪咕音乐 去开屏广告, update-interval=28800, opt-parser=true, enabled=true
+
+hostname = *.cmvideo.cn
+# 咪咕音乐 去除开屏广告
+^https?:\/\/gg\w+?\.cmvideo\.cn\/v\d\/iflyad\/ url reject-200
+^https?:\/\/ggic\d?\.cmvideo\.cn\/ad\/ url reject-200
+^https?:\/\/ggx\.cmvideo\.cn\/request\/ url reject-200
