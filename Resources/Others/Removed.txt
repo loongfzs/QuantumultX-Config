@@ -1,9 +1,126 @@
+# NAS
+DOMAIN-SUFFIX,synology.com
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,synocommunity.com
+DOMAIN-SUFFIX,qnap.com
+DOMAIN-SUFFIX,myqnapcloud.com
+
+# 新途径在线
+DOMAIN-SUFFIX,xtj.pub
+
+# 中国广电
+# 直播中国
+DOMAIN-SUFFIX,yueshitv.com
+
+# Flingtrainer
+DOMAIN-SUFFIX,flingtrainer.com
+
+## Mozilla
+# Firefox
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,mozilla.net
+DOMAIN-SUFFIX,mozilla.org
+# Mozilla
+DOMAIN-SUFFIX,mozilla.community
+# Firefox
+DOMAIN-SUFFIX,firefoxusercontent.com
+# Pocket
+DOMAIN-SUFFIX,getpocket.com
+DOMAIN-SUFFIX,pocket-image-cache.com
+DOMAIN-SUFFIX,mofoprod.net
+
+# Tumblr
+DOMAIN-SUFFIX,tumblr.com
+
+# AVAST
+DOMAIN-SUFFIX,avast.com
+
+## 海外支付平台
+# Paypal（贝宝）
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,paypal-mktg.com
+
+# VISA
+DOMAIN-SUFFIX,visa.com
+
+# Stripe
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,stripe.network
+
+; 禁止HttpDNS
+ruleset=REJECT,https://raw.githubusercontent.com/loongfzs/Clash-Config/main/Clash/Ruleset/Uni/HttpDNS.list
+
+# nvidia遥测收集 (https://www.nvidia.com/en-us/geforce/forums/geforce-experience/14/285175/why-does-nvidia-need-to-spy-on-me-35000-times-a-da/)
+DOMAIN,events.gfe.nvidia.com
+
+custom_proxy_group=✅ 代理`select`美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States`新加坡|狮城|SG|Singapore`港|HK|HongKong|Hong Kong`.*
+custom_proxy_group=📀 视听`select`(?!.*(SGB|RUS|AUS|MUS)).(新加坡|狮城|SG|Singapore)`台湾|新北|台北|台中|彰化|TW|Taiwan
+custom_proxy_group=🎮 游戏`select`港|HK|HongKong|Hong Kong`新加坡|狮城|SG|Singapore`美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+custom_proxy_group=📥 下载`select`[]✅ 代理`[]DIRECT
+custom_proxy_group=Ⓜ️ 云盘`select`[]✅ 代理`[]DIRECT
+custom_proxy_group=♻️ 自动测速`url-test`.*`http://clients1.google.com/generate_204`300,,50
+custom_proxy_group=✅ 代理`select`[]♻️ 自动`(?!.*(RUS|AUS|MUS)).(美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`(?!.*(SGB|RUS|AUS|MUS)).(新加坡|狮城|SG|Singapore)`港|HK|HongKong|Hong Kong`台湾|新北|台北|台中|彰化|TW|Taiwan`.*
+custom_proxy_group=🍎 苹果`select`(?!.*(RUS|AUS|MUS)).(美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
+custom_proxy_group=🎮 游戏`select`^((?!(台湾|新北|台北|台中|彰化|TW|Taiwan|日本|川日|东京|大阪|泉日|埼玉|沪日|JP|Japan)).)*$
+
+###################################################################################################
+# Ubisoft Connect
+PROCESS-NAME,upc.exe
+PROCESS-NAME,UbisoftConnect.exe
+PROCESS-NAME,UbisoftExtension.exe
+PROCESS-NAME,UbisoftGameLauncher.exe
+PROCESS-NAME,UbisoftGameLauncher64.exe
+PROCESS-NAME,UplayService.exe
+PROCESS-NAME,UplayWebCore.exe
+
+# Steep
+PROCESS-NAME,steep.exe
+
+# Tom Clancy's The Division 2
+PROCESS-NAME,TheDivision2.exe
+
+###################################################################################################
+# Twitch
+DOMAIN-SUFFIX,ext-twitch.tv
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,twitch-ext.rootonline.de
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+
+###################################################################################################
+# === 禁止一键登录（One-click login）===
+# 电信
+DOMAIN-SUFFIX,id6.me
+
+# 阿里云 https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/download%2Fpdf%2F189628%2FAPI%25E5%258F%2582%25E8%2580%2583_cn_zh-CN.pdf
+DOMAIN,dypnsapi.aliyuncs.com
+
+# 袤博 https://www.mob.com/wiki/detailed?wiki=157&id=78
+DOMAIN,identify.verify.mob.com
+DOMAIN,identify-verify.dutils.com
+
+# 极验
+DOMAIN,onepass.geetest.com
+
+# 云片移动认证
+DOMAIN,mobileauth.yunpian.com
+
+# 赛邮云通信
+DOMAIN,tpa.mysubmail.com
+
+# 联通
+DOMAIN-SUFFIX,mdn.open.wo.cn
+DOMAIN,opencloud.wostore.cn
+DOMAIN,nishub1.10010.com
+DOMAIN,enrichgw.10010.com
+# 联通SDK
+DOMAIN,zzx9.cn
+###################################################################################################
 # Boxjs脚本
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=Boxjs脚本, update-interval=86400, opt-parser=false, enabled=true
-
-# Firebase Crashlytics
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN,firebaselogging-pa.googleapis.com
 
 # iOS端拒绝规则集
 https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Ruleset/iOS/Reject.list, tag=iOS端拒绝规则集, force-policy=REJECT, update-interval=28800, opt-parser=true, enabled=true
@@ -51,9 +168,6 @@ IP6-CIDR,2a01:b740:a42::/48,DIRECT
 
 # 哔哩哔哩：重定向（自定义 CDN）
 https://raw.githubusercontent.com/BiliUniverse/Redirect/main/modules/BiliBili.Redirect.plugin, tag=哔哩哔哩：重定向（自定义 CDN）, update-interval=28800, opt-parser=true, enabled=true
-
-# 咪咕音乐 去开屏广告
-https://raw.githubusercontent.com/loongfzs/QuantumultX-Config/main/Rewrite/App/MiguMusic.conf, tag=咪咕音乐 去开屏广告, update-interval=28800, opt-parser=true, enabled=true
 
 hostname = *.cmvideo.cn
 # 咪咕音乐 去除开屏广告

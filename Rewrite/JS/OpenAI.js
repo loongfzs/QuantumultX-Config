@@ -36,13 +36,13 @@ var opts = {
         break;
       case 'unsupported_country':
       case 'cf_details':
-        result['content'] = 'API 状态：不可用 ❌';
+        result['content'] = 'API 状态：异常 🚫';
         break;
       case 'timeout':
         result['content'] = '请求超时 ⏱️';
         break;
       default:
-        result['content'] = '未知错误';
+        result['content'] = '未知错误 ❓';
     }
 
     let content = "------------------------------" + "</br></br>" + result["content"]
