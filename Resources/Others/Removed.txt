@@ -177,3 +177,18 @@ hostname = *.cmvideo.cn
 
 # 百度文库 解锁VIP文档阅读权限
 https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/bdwk.js, tag=百度文库 解锁VIP文档阅读权限, update-interval=28800, opt-parser=true, enabled=true
+
+custom_proxy_group=✅ 代理`select`美国|US|United States`新加坡|SG|Singapore`港|HK|HongKong`.*
+custom_proxy_group=📀 视听`select`(?!.*(SGB|RUS|AUS|MUS)).(新加坡|SG|Singapore)`台湾|TW|Taiwan
+custom_proxy_group=🎮 游戏`select`[]✅ 代理`港|HK|HongKong`.*
+custom_proxy_group=📶 通讯`select`[]✅ 代理`^((?!港|HK|HongKong|Hong Kong|台湾|新北|台北|台中|彰化|TW|Taiwan|新加坡|狮城|SG|Singapore|日本|川日|东京|大阪|泉日|埼玉|沪日|JP|Japan|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States).)*$|(SGS|SGB|RUS|AUS|MUS)
+
+# Pixiv去广告
+https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pixivAds.js, tag=Pixiv去广告, update-interval=28800, opt-parser=true, enabled=true
+# 知乎去广告
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet, tag=知乎去广告, update-interval=28800, opt-parser=false, enabled=true
+
+# 尽简衣橱 解锁VIP
+https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/jjyc.js, tag=尽简衣橱 解锁VIP, update-interval=28800, opt-parser=true, enabled=true
+# 烘焙小屋 解锁VIP
+https://raw.githubusercontent.com/yqc007/QuantumultX/master/XiangHaBakeProCrack.js, tag=烘焙小屋 解锁VIP, update-interval=28800, opt-parser=true, enabled=true
