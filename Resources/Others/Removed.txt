@@ -182,6 +182,7 @@ custom_proxy_group=✅ 代理`select`美国|US|United States`新加坡|SG|Singap
 custom_proxy_group=📀 视听`select`(?!.*(SGB|RUS|AUS|MUS)).(新加坡|SG|Singapore)`台湾|TW|Taiwan
 custom_proxy_group=🎮 游戏`select`[]✅ 代理`港|HK|HongKong`.*
 custom_proxy_group=📶 通讯`select`[]✅ 代理`^((?!港|HK|HongKong|Hong Kong|台湾|新北|台北|台中|彰化|TW|Taiwan|新加坡|狮城|SG|Singapore|日本|川日|东京|大阪|泉日|埼玉|沪日|JP|Japan|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States).)*$|(SGS|SGB|RUS|AUS|MUS)
+custom_proxy_group=🧊 通讯`select`[]✅ 代理`^((?!港|HK|HongKong|Hong Kong|台湾|新北|台北|台中|彰化|TW|Taiwan|日本|川日|东京|大阪|泉日|埼玉|沪日|JP|Japan).)*$|(SGS|SGB|RUS|AUS|MUS)
 
 # Pixiv去广告
 https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pixivAds.js, tag=Pixiv去广告, update-interval=28800, opt-parser=true, enabled=true
