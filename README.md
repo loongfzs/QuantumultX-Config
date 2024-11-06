@@ -2,7 +2,7 @@
 
 # QuantumultX-Config
 
-自用Quantumult X 的配置文件。
+Quanfurbus X的配置文件，仅供个人使用。
 
 The configuration file of Quantumult X, purely for personal use.
 
@@ -10,4 +10,4 @@ The configuration file of Quantumult X, purely for personal use.
 
 ![](http://profile-counter.glitch.me/loongfzs/count.svg)
 
-【最近更新：2024年10月25日】
+【最近更新：2024年11月6日】
